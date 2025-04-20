@@ -1,5 +1,3 @@
-echo "# SDC
-
 EtaForge is a full-stack web application for real-time route planning and ETA prediction along with weather forecast in Bangalore. It features:
 
 - Live map using Leaflet & TomTom APIs
