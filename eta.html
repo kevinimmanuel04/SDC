@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ETAForge</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+
+<div id="darkToggle" onclick="toggleTheme()">🌓</div>
+
+<div id="controls">
+  <input id="startInput" placeholder="Start location or lat,lon" />
+  <div class="coord-display" id="startCoords"></div>
+
+  <input id="endInput" placeholder="End location or lat,lon" />
+  <div class="coord-display" id="endCoords"></div>
+
+  <label for="datetime">Depart at:</label>
+  <input type="datetime-local" id="datetime" />
+
+  <button onclick="calculateRoute()">Get Route</button>
+  <button onclick="resetMap()">Reset</button>
+  <div id="info">Enter locations or lat/lon, or click on map.</div>
+</div>
+
+<div id="map"></div>
+
+<!-- Weather Button and Panel -->
+<div id="weatherToggle" onclick="toggleWeatherPanel()">☁️</div>
+
+<div id="weatherPanel">
+  <input type="text" id="weatherLocation" placeholder="Enter location" />
+  <input type="date" id="weatherDate" />
+  <button onclick="fetchWeather()">Get Weather</button>
+  <div id="weatherInfo"></div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
