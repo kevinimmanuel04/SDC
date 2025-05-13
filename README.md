@@ -20,22 +20,7 @@ EtaForge is a full-stack web application for real-time route planning and ETA pr
 - 🗺 Real-time routing and distance display
 - 🕒 User search history tracking
 
-## 📁 Project Setup
-
-1. Clone the repo:
-   \`\`\`bash
-   git clone https://github.com/kevinimmanuel04/SDC
-   \`\`\`
-
-2. Run Flask server:
-   \`\`\`bash
-   python app.py
-   \`\`\`
-
-3. Open \`index.html\` in your browser.
-
 ## 🙌 Credits
 
 Built by Kevin Immanuel,Laxman Shrestha,Koyel Mullick,M. Rakshita
 
-" > README.md
